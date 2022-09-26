@@ -1,7 +1,15 @@
+import java.util.Scanner;
+
 public class Subarray_Product_Less_Than_K {
     public static void main(String[] args) {
-        int arr[]={1,2,4,3,5,2,3};
-        int k=10;
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        int k=s.nextInt();
+        int arr[]=new int[n];
+        for (int i = 0; i <arr.length; i++) {
+            arr[i]=s.nextInt();
+        }
+//        int k=10;
         System.out.println(NoofSubArray(arr,k));
     }
     public static  int NoofSubArray(int[] arr,int k){
