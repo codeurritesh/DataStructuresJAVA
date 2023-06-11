@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Backspaces_string_compare {
-
+// Good question
         public static void main(String args[]) {
             Scanner s = new Scanner(System.in);
             String str1 = s.next();
